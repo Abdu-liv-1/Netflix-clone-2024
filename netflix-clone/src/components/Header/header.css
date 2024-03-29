@@ -1,0 +1,67 @@
+.header_outer_container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    height: 10vh;
+    color: white;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+  }
+  .nav_black{
+    background-color: rgb(20, 20, 20);
+  }
+  .header_right ul {
+    display: flex; /* Use flexbox to align items horizontally */
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .header_right ul li {
+    margin-right: 10px; /* Adjust spacing between icons as needed */
+  }
+  
+  
+  .header_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li {
+    color: white;
+  }
+  
+  .nav li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
